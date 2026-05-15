@@ -40,17 +40,17 @@ export default function KatinaAccessPortal() {
             </h2>
 
             <p className="text-xl text-pink-300 mb-8">
-              Enter the password to unlock the invitation and access all the details for Katina’s Bachelorette Weekend ✨
+             Answer the security question to unlock the invitation and access all the details for Katina’s Bachelorette Weekend ✨
             </p>
 
             <div className="max-w-xl mx-auto">
               <p className="text-white text-2xl mb-6">
-                Who are we celebrating this bachelorette weekend?
+                Mission access requires bride identification.
               </p>
 
               <input
                 type="text"
-                placeholder="Enter password..."
+                placeholder="Enter codeword..."
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full bg-black border border-pink-500 rounded-xl px-5 py-4 text-white text-lg mb-4"
