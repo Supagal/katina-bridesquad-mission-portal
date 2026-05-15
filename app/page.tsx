@@ -45,7 +45,7 @@ export default function KatinaAccessPortal() {
 
             <div className="max-w-xl mx-auto">
               <p className="text-white text-2xl mb-6">
-                Who are we celebrating this weekend?
+                Who are we celebrating this bachelorette weekend?
               </p>
 
               <input
